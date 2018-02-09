@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+project (02_LoadModifyAndSaveImage)
+find_package (OpenCV REQUIRED)
+include_directories (${OpenCV_INCLUDE_DIRS})
+add_executable (02_LoadModifyAndSaveImage 02_LoadModifyAndSaveImage.cpp)
+target_link_libraries (02_LoadModifyAndSaveImage ${OpenCV_LIBS})
