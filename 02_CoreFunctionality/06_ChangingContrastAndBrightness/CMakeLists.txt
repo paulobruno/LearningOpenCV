@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+project (06_ChangingContrastAndBrightness)
+find_package (OpenCV REQUIRED)
+include_directories (${OpenCV_INCLUDE_DIRS})
+add_executable (06_ChangingContrastAndBrightness 06_ChangingContrastAndBrightness.cpp)
+target_link_libraries (06_ChangingContrastAndBrightness ${OpenCV_LIBS})

@@ -12,3 +12,5 @@
   * [References](https://docs.opencv.org/master/d5/d98/tutorial_mat_operations.html)
 - [05 Adding (blending) two images using OpenCV](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/05_AddingTwoImages)
   * [References](https://docs.opencv.org/master/d5/dc4/tutorial_adding_images.html)
+- [06 Changing the contrast and brightness of an image!](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/06_ChangingContrastAndBrightness)
+  * [References](https://docs.opencv.org/master/d3/dc1/tutorial_basic_linear_transform.html)

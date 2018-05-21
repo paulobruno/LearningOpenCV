@@ -12,3 +12,4 @@ Personal tests of OpenCV's tutorials presented [here](https://docs.opencv.org/ma
   * [2.3 Mask operations on matrices](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/03_MaskOperations)
   * [2.4 Operations with images](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/04_OperationsWithImages)
   * [2.5 Adding (blending) two images using OpenCV](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/05_AddingTwoImages)
+  * [2.6 Changing the contrast and brightness of an image!](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/06_ChangingContrastAndBrightness)
