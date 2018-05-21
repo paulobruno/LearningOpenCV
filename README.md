@@ -11,3 +11,4 @@ Personal tests of OpenCV's tutorials presented [here](https://docs.opencv.org/ma
   * [2.2 How to scan images, lookup tables and time measurement with OpenCV](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/02_HowToScanImages)
   * [2.3 Mask operations on matrices](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/03_MaskOperations)
   * [2.4 Operations with images](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/04_OperationsWithImages)
+  * [2.5 Adding (blending) two images using OpenCV](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/05_AddingTwoImages)

@@ -10,4 +10,5 @@
   * [References](https://docs.opencv.org/master/d7/d37/tutorial_mat_mask_operations.html)
 - [04 Operations with images](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/04_OperationsWithImages)
   * [References](https://docs.opencv.org/master/d5/d98/tutorial_mat_operations.html)
-
+- [05 Adding (blending) two images using OpenCV](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/05_AddingTwoImages)
+  * [References](https://docs.opencv.org/master/d5/dc4/tutorial_adding_images.html)
