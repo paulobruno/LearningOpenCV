@@ -6,3 +6,5 @@
   * [References](https://docs.opencv.org/master/d6/d6d/tutorial_mat_the_basic_image_container.html)
 - [02 How to scan images, lookup tables and time measurement with OpenCV](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/02_HowToScanImages)
   * [References](https://docs.opencv.org/master/db/da5/tutorial_how_to_scan_images.html)
+- [03 Mask operations on matrices](https://github.com/paulobruno/LearningOpenCV/tree/master/02_CoreFunctionality/03_MaskOperations)
+  * [References](https://docs.opencv.org/master/d7/d37/tutorial_mat_mask_operations.html)

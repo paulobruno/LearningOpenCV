@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+project (03_MaskOperations)
+find_package (OpenCV REQUIRED)
+include_directories (${OpenCV_INCLUDE_DIRS})
+add_executable (03_MaskOperations 03_MaskOperations.cpp)
+target_link_libraries (03_MaskOperations ${OpenCV_LIBS})
