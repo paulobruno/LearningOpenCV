@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+project (04_OperationsWithImages)
+find_package (OpenCV REQUIRED)
+include_directories (${OpenCV_INCLUDE_DIRS})
+add_executable (04_OperationsWithImages 04_OperationsWithImages.cpp)
+target_link_libraries (04_OperationsWithImages ${OpenCV_LIBS})
