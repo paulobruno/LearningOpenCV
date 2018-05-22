@@ -73,8 +73,32 @@ int main(int argc, char* argv[])
     std::cout << "convertTo version:" << std::endl
               << "\tTimes passed in milisseconds: " << t << " ms" << std::endl;
               
-    cv::namedWindow("New ", cv::WINDOW_AUTOSIZE);
-    cv::imshow("New ", dst);
+    cv::namedWindow("Convert To Version", cv::WINDOW_AUTOSIZE);
+    cv::imshow("Convert To Version", dst);
+    
+    
+    // gamma correction
+    cv::Mat lookUpTable(1, 256, CV_8U);
+    uchar* p = lookUpTable.ptr();
+    double gamma_ = 1.0;
+
+    std::cout << "Gamma value [0-4]: ";
+    std::cin >> input;
+    
+    if (0 <= input && 4 >= input)
+    {
+        gamma_ = input;
+    }
+
+    for( int i = 0; i < 256; ++i)
+    {
+        p[i] = cv::saturate_cast<uchar>(cv::pow((double)i / 255.0, gamma_) * 255.0);
+    }
+    cv::Mat res = src.clone();
+    LUT(src, lookUpTable, res);
+    
+    cv::namedWindow("Gamma correction", cv::WINDOW_AUTOSIZE);
+    cv::imshow("Gamma correction", res);
     
     
     cv::waitKey(0);
