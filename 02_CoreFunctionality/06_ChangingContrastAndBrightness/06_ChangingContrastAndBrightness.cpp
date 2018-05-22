@@ -35,9 +35,13 @@ int main(int argc, char* argv[])
         bias = input;
     }
     
-        
+            
     cv::Mat dst = cv::Mat::zeros(src.size(), src.type());
-        
+    
+    double t = (double) cv::getTickCount();
+    
+    // pixelwise operations only for didatic purpose
+    // the 'correct' version is to use convertTo (below)    
     for (int j = 0; j < src.rows; ++j)
     {
         for (int i = 0; i < src.cols; ++i)
@@ -49,12 +53,29 @@ int main(int argc, char* argv[])
         }
     }
     
-    
+    t = 1000.0 * ((double) cv::getTickCount() - t) / cv::getTickFrequency();
+    std::cout << "for version:" << std::endl
+              << "\tTimes passed in milisseconds: " << t << " ms" << std::endl;
+              
     cv::namedWindow("Original Image", cv::WINDOW_AUTOSIZE);
     cv::namedWindow("New Image", cv::WINDOW_AUTOSIZE);
     
     cv::imshow("Original Image", src);
     cv::imshow("New Image", dst);
+    
+    
+    t = (double) cv::getTickCount();
+    
+    // 'correct' version, a lot faster and gives the same result
+    src.convertTo(dst, -1, gain, bias);
+    
+    t = 1000.0 * ((double) cv::getTickCount() - t) / cv::getTickFrequency();
+    std::cout << "convertTo version:" << std::endl
+              << "\tTimes passed in milisseconds: " << t << " ms" << std::endl;
+              
+    cv::namedWindow("New ", cv::WINDOW_AUTOSIZE);
+    cv::imshow("New ", dst);
+    
     
     cv::waitKey(0);
             
