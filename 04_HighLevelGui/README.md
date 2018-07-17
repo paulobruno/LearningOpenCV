@@ -4,3 +4,7 @@
 ### Sumary
 - [01 Adding a Trackbar to our applications! (Part 1)](https://github.com/paulobruno/LearningOpenCV/tree/master/04_HighLevelGui/01_AddingTrackbar)
   * [References](https://docs.opencv.org/master/da/d6a/tutorial_trackbar.html)
+- [02 Adding a Trackbar to our applications! (Part 2)](https://github.com/paulobruno/LearningOpenCV/tree/master/04_HighLevelGui/02_ChangingContrastAndBrightness)
+  * [References](https://docs.opencv.org/master/da/d6a/tutorial_trackbar.html)
+  
+  
