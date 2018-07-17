@@ -150,6 +150,8 @@ ui_*.h
 *.autosave
 *.cbp
 
+# Python ignore #
+*.pyc
 
 # Commit file #
 Notes.txt

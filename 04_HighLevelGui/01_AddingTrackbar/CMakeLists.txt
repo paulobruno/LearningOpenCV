@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+project (01_AddingTrackbar)
+find_package (OpenCV REQUIRED)
+include_directories (${OpenCV_INCLUDE_DIRS})
+add_executable (01_AddingTrackbar 01_AddingTrackbar.cpp)
+target_link_libraries (01_AddingTrackbar ${OpenCV_LIBS})
